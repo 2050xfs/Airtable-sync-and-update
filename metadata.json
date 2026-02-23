@@ -1,0 +1,5 @@
+{
+  "name": "AirGen Vision",
+  "description": "Connect your Airtable database to Google Gemini. Analyze images stored in your tables or generate new insights, and sync the results directly back to your database.",
+  "requestFramePermissions": []
+}
