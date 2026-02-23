@@ -16,6 +16,14 @@ export enum ProcessMode {
   GENERATE_CONTENT = 'GENERATE_CONTENT'
 }
 
+export interface ProcessingConfig {
+  mode: ProcessMode;
+  imageField: string;
+  textFields: string[];
+  outputField: string;
+  promptTemplate: string;
+}
+
 export interface WorkflowTemplate {
   id: string;
   name: string;

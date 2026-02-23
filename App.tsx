@@ -1,5 +1,4 @@
 
-// @ts-nocheck
 import React, { useState, useEffect, useRef } from 'react';
 import { ConnectForm } from './components/ConnectForm';
 import { DataTable } from './components/DataTable';

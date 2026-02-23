@@ -1,5 +1,4 @@
 
-// @ts-nocheck
 import React, { useState, useEffect } from 'react';
 import { AirtableRecord, ProcessingConfig, ProcessMode, ProcessingStatus, WORKFLOW_TEMPLATES, WorkflowTemplate } from '../types';
 import { Play, RotateCw, Settings2, Image as ImageIcon, Type, Sparkles, Check, Info, Package, ShieldAlert, Search } from 'lucide-react';
